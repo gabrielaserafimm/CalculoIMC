@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cálculo de IMC</title>
+</head>
+<body>
+    <div class="pagina">
+        <div class="titulo">
+            <h1 class="title">Cálculo de IMC</h1>
+        </div>
+        <div class="conteudo">
+            <label for="altura">Altura: </label><br>
+            <input type="text" id="altura" name="altura"/>
+        </div>
+        <div class="conteudo">
+            <label for="peso">Peso: </label><br>
+            <input type="text" id="peso" name="peso"/>
+        </div>
+        <div class="col-md-12 text-center">
+            <button onclick="calcular()" class="botao-calcular">Calcular</button>
+            <button onclick="limpar()" class="botao-limpar">Limpar</button>
+        </div>
+        <div class="conteudo imc">
+            <p>IMC: <span class="imc" id="imc"></span></p>
+        </div>
+        <div class="conteudo classificacao">
+            <strong>Classificação: </strong><span id="classificacao"></span>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

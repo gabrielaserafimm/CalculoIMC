@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+h1.title {
+    color: #abadad;
+}
+.conteudo {
+    padding-bottom: 10px;
+}
+.pagina{
+    text-align: center;
+}
+.magreza-grave,
+.obesidade-grau-2,
+.obesidade-grau-3 {
+    color: red;
+    font-weight: 900;
+}
+.magreza-moderada,
+.obesidade-grau-1 {
+    color: #d37325;
+    font-weight: 900;
+}
+.magreza-leve,
+.sobrepeso {
+    color: gray;
+    font-weight: 900;
+}
+.saudavel {
+    color: #39e639;
+    font-weight: 900;
+}
+.botao-calcular {
+    margin-bottom: 20px;
+    background-color: teal;
+    border: 2px solid teal;
+    color: #FFF;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.botao-calcular:hover {
+    background-color: #FFF;
+    border: 2px solid teal;
+    color: teal;
+}
+.botao-limpar{
+    margin-bottom: 20px;
+    background-color: #bb6c6c;
+    border: 2px solid #bb6c6c;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.botao-limpar:hover {
+    background-color: #FFF;
+    border: 2px solid #bb6c6c;
+    color: #bb6c6c;
+}
+input {
+    padding: 5px 10px;
+}
